@@ -1,11 +1,12 @@
-import logo from './IMG_0080.svg'
+// App.js
 import './App.css';
+import Navbar from './Navbar'; // Adjust path if necessary
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Korean Photobooth by Mi Pham and Quan Dang :))
         </p>
