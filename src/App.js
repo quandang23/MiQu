@@ -1,15 +1,17 @@
 // App.js
 import './App.css';
-import Navbar from './Navbar'; // Adjust path if necessary
+import Navbar from './Navbar'; 
+import logo from './logo.png'; 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <p>
-          Korean Photobooth by Mi Pham and Quan Dang :))
+        <p className="Title">
+          Korean Photobooth
         </p>
+        <img src={logo} className="logo" alt="logo" />
       </header>
     </div>
   );

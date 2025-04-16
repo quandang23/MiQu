@@ -3,27 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a1d2fe;
-    border-bottom: 1px solid #eee;
-    height: 90px; /* Fixed height for the navbar */
+    background-color: #1b1c1c;
+    height: 70px; /* Fixed height for the navbar */
     padding: 0 0 0 0; /* Remove all padding */
     position: fixed; /* Keeps navbar at the top */
     top: 0; /* Aligns to the top */
-    left: 0; /* Aligns to the left */
-    width: 100%; /* Spans full width */
-    z-index: 1000; /* Stays above content */
-  }
-  
-  .Bottom-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #a1d2fe;
-    border-top: 1px solid #eee; /* Border on top for bottom navbar */
-    height: 90px; /* Same height as top navbar */
-    padding: 0 0 0 0; /* Remove all padding */
-    position: fixed; /* Keeps navbar at the bottom */
-    bottom: 0; /* Aligns to the bottom */
     left: 0; /* Aligns to the left */
     width: 100%; /* Spans full width */
     z-index: 1000; /* Stays above content */
@@ -35,11 +19,15 @@
     height: 100%; /* Match navbar height */
   }
   
-  .App-logo {
-    max-height: 140%; /* Larger than navbar height */
+  .companyName {
+    max-height: 120%; /* Larger than navbar height */
     width: auto; /* Maintains aspect ratio */
     pointer-events: none;
     padding-left: 2.5rem; /* Your specified padding-left */
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: #fc0 1px 0 10px;
+    font-weight: bold;
   }
   
   .nav-right {
@@ -51,11 +39,11 @@
   
   .nav-link {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-size: 1.1rem;
     font-weight: 500;
   }
   
   .nav-link:hover {
-    color: white; /* Your hover effect */
+    color: rgb(136, 136, 136); /* Your hover effect */
   }
