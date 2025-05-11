@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.png'; 
 import './Home.css';
+import Kim from "./Kim.jpeg"
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
                 Korean Photobooth
             </p>
             <img src={logo} className="logo" alt="logo" />
+            <img src={Kim} alt="Kimmy" />
         </header>
     </div>
   );
