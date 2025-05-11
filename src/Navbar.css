@@ -11,6 +11,7 @@
     left: 0; /* Aligns to the left */
     width: 100%; /* Spans full width */
     z-index: 1000; /* Stays above content */
+    overflow-x: hidden;
   }
   
   .nav-left {

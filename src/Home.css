@@ -1,6 +1,8 @@
 .Home {
     text-align: center;
     background-color: #0047b5;
+    width: 100%;
+    overflow-x: hidden;
 }
   
 .Home-header {
@@ -11,15 +13,33 @@
   align-items: center;
   justify-content: center;
   color: white;
+  width: 100%; 
+  overflow-x: hidden; 
 }
 
 .Title {
   font-family: 'Lexend', sans-serif;
   font-size: 54px;
   margin-bottom: 0;
+  word-wrap: break-word; 
+  max-width: 100%; 
+  padding: 0 10px; 
+  box-sizing: border-box;
 }
 
 .logo {
-  width: 120px; /* Adjust this value to your desired width */
-  height: auto; /* Maintains aspect ratio */
+  width: 120px; 
+  height: auto; 
+  max-width: 100%;
+}
+
+/* Responsive font size for mobile */
+@media (max-width: 600px) {
+  .Title {
+    font-size: 32px; /* Smaller font size on mobile */
+  }
+
+  .logo {
+    width: 80px; /* Smaller logo on mobile */
+  }
 }
