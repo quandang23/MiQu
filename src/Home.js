@@ -11,7 +11,7 @@ function Home() {
                 Korean Photobooth
             </p>
             <img src={logo} className="logo" alt="logo" />
-            <img src={Kim} alt="Kimmy" />
+            <img src={logo} alt="Kimmy" />
         </header>
     </div>
   );
