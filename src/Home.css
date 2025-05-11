@@ -1,0 +1,25 @@
+.Home {
+    text-align: center;
+    background-color: #0047b5;
+}
+  
+.Home-header {
+  background-color: #0047b5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Title {
+  font-family: 'Lexend', sans-serif;
+  font-size: 54px;
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 120px; /* Adjust this value to your desired width */
+  height: auto; /* Maintains aspect ratio */
+}

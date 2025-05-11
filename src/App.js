@@ -1,18 +1,19 @@
 // App.js
-import './App.css';
 import Navbar from './Navbar'; 
-import logo from './logo.png'; 
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Partnership from './Partnership';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
-        <p className="Title">
-          Korean Photobooth
-        </p>
-        <img src={logo} className="logo" alt="logo" />
-      </header>
+      {/* Define Routes for page content below the navbar */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/partnership" element={<Partnership />} />
+      </Routes>
     </div>
   );
 }

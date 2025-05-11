@@ -22,12 +22,14 @@
   .companyName {
     max-height: 120%; /* Larger than navbar height */
     width: auto; /* Maintains aspect ratio */
-    pointer-events: none;
     padding-left: 2.5rem; /* Your specified padding-left */
     font-size: 1.4rem;
     color: white;
-    text-shadow: #fc0 1px 0 10px;
     font-weight: bold;
+    text-decoration: none; 
+  }
+  .companyName:hover {
+    color: rgb(136, 136, 136); /* Your hover effect */
   }
   
   .nav-right {
@@ -37,13 +39,13 @@
     padding-right: 5rem; /* Your specified padding-right */
   }
   
-  .nav-link {
+  .partnership {
     text-decoration: none;
     color: white;
     font-size: 1.1rem;
     font-weight: 500;
   }
   
-  .nav-link:hover {
+  .partnership:hover {
     color: rgb(136, 136, 136); /* Your hover effect */
   }

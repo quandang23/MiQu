@@ -1,21 +1,19 @@
 // Navbar.js
-import logo from './logo.png'; 
+import { Link } from 'react-router-dom'; // Only import Link, not Routes/Route
 import './Navbar.css';
 
 function Navbar() {
   return (
-    <>
-      <nav className="Top-nav">
-        <div className="nav-left">
-          <p className="companyName">
+    <nav className="Top-nav">
+      <div className="nav-left">
+        <Link to="/" className="companyName">
             MiQuStudio
-          </p>
-        </div>
-        <div className="nav-right">
-          <a href="#partnership" className="nav-link">Partnership</a>
-        </div>
-      </nav>
-    </>
+        </Link>
+      </div>
+      <div className="nav-right">
+        <Link to="/partnership" className="partnership">Partnership</Link>
+      </div>
+    </nav>
   );
 }
 
