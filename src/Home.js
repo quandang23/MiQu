@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.png'; 
 import './Home.css';
-import Kim from "./Kim.jpeg"
+import Kim from './Kim.jpeg'
 
 function Home() {
   return (
